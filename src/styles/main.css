@@ -50,7 +50,7 @@
     width: 65%;
 }
 
-.score-box {
+.score_box {
     background-color: #FFF;
     padding: 30px;
 }
@@ -123,4 +123,12 @@
     width: 8rem;
     height: 11.2rem;
     border-radius: 8px;
+}
+
+.card{
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
