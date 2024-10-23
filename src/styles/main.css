@@ -1,4 +1,4 @@
-.bg-video{
+.bg-video {
     position: absolute;
     z-index: -2;
     width: 100vw;
@@ -8,60 +8,59 @@
     justify-content: center;
 }
 
-.bg-video .video{
+.bg-video .video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
 }
 
-.bg-video::after{
+.bg-video::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
     background: linear-gradient(
         90deg,
-        rgba(0,0,0,1) 0%,
-        rgba(0,0,0,0.8) 50%,
-        rgba(0,0,0,1) 100%
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 1) 100%
     );
     z-index: 1;
 }
 
-.container{
+.container {
     position: relative;
     z-index: 3;
     display: flex;
     height: 100vh;
 }
 
-.container__left{
+.container__left {
     width: 35%;
     min-width: 300px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.container__right{
+.container__right {
     width: 65%;
-
 }
 
-.score-box{
+.score-box {
     background-color: #FFF;
     padding: 30px;
-
 }
 
-.frame{
+.frame {
     border: 3px solid #000;
     border-radius: 5px;
 }
 
-.card_details{
+.card_details {
     background-color: #fff;
     padding: 1rem;
     display: flex;
@@ -72,24 +71,23 @@
     width: 100%;
 }
 
-#card-name{
+#card-name {
     font-size: 0.8rem;
 }
 
-#card-type{
+#card-type {
     font-size: 1rem;
 }
 
-.card-box__container{
+.card-box__container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0.3rem;
-
 }
 
-.card-versus__container{
+.card-versus__container {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -98,22 +96,21 @@
 }
 
 .versus-top,
-.versus-bottom{
+.versus-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.versus-bottom{
+.versus-bottom {
     margin-top: 1rem;
 }
 
-#next-duel{
+#next-duel {
     display: none;
 }
 
-.card-box{
+.card-box {
     height: 9rem;
     width: 100%;
     display: flex;
@@ -122,7 +119,7 @@
     justify-content: space-around;
 }
 
-.card-infield{
+.card-infield {
     width: 8rem;
     height: 11.2rem;
     border-radius: 8px;
